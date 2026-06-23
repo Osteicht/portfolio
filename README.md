@@ -28,4 +28,4 @@ This specific repository holds the code for my static portfolio website. It is i
 ### 🤝 Let's Work Together
 Looking for a developer to build a functioning, performance-oriented web app? I am currently open for freelance projects and collaborations. 
 
-Explore my [live portfolio](https://osteicht.github.io) to see my deployed applications. Feel free to connect with me to discuss how we can build something solid together!
+Explore my [live portfolio](https://osteicht.github.io/portfolio/) to see my deployed applications. Feel free to connect with me to discuss how we can build something solid together!
