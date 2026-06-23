@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Osteicht | Full-Stack Developer</title>
+
+    <!-- Standard SEO Meta Tags -->
+    <meta name="description" content="Portfolio of Osteicht, a Full-Stack Web Developer specializing in high-performance, data-driven web applications and interactive user experiences.">
+    <meta name="keywords" content="Osteicht, Full-Stack Developer, Web Developer, Software Engineer, Node.js, Express, Philippines, Portfolio">
+    <meta name="author" content="Osteicht">
+
+    <!-- Open Graph (For sharing on Facebook, LinkedIn, Discord, etc.) -->
+    <meta property="og:title" content="Osteicht | Full-Stack Developer">
+    <meta property="og:description" content="Explore my featured projects, including full-stack applications, real-time voting systems, and responsive web interfaces.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://osteicht.github.io/">
+    
+    <style>
+        /* Modern CSS Variables */
+        :root {
+            --primary: #00d2ff;
+            --secondary: #3a7bd5;
+            --bg-gradient: linear-gradient(135deg, #0b0f19 0%, #1a2235 100%);
+            --card-bg: rgba(255, 255, 255, 0.03);
+            --card-border: rgba(255, 255, 255, 0.08);
+            --text-main: #f8f9fa;
+            --text-muted: #a0aec0;
+        }
+
+        /* Global Styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+        }
+
+        body {
+            background: var(--bg-gradient);
+            color: var(--text-main);
+            min-height: 100vh;
+            line-height: 1.6;
+        }
+
+        /* Hero / Header Section */
+        header {
+            text-align: center;
+            padding: 80px 20px 60px;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        header h1 {
+            font-size: 3.5rem;
+            font-weight: 800;
+            background: linear-gradient(to right, var(--primary), var(--secondary));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin-bottom: 10px;
+            letter-spacing: -1px;
+        }
+
+        header h2 {
+            font-size: 1.5rem;
+            color: var(--text-muted);
+            font-weight: 400;
+            margin-bottom: 20px;
+        }
+
+        header p {
+            color: var(--text-muted);
+            margin-bottom: 30px;
+            font-size: 1.1rem;
+        }
+
+        .btn-github {
+            display: inline-block;
+            background: rgba(255, 255, 255, 0.1);
+            color: var(--text-main);
+            padding: 12px 28px;
+            border-radius: 30px;
+            text-decoration: none;
+            font-weight: 600;
+            border: 1px solid var(--card-border);
+            transition: all 0.3s ease;
+            backdrop-filter: blur(10px);
+        }
+
+        .btn-github:hover {
+            background: rgba(255, 255, 255, 0.2);
+            transform: translateY(-2px);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+        }
+
+        /* Projects Section */
+        .container {
+            max-width: 1100px;
+            margin: 0 auto;
+            padding: 0 20px 80px;
+        }
+
+        .section-title {
+            font-size: 2rem;
+            margin-bottom: 30px;
+            text-align: center;
+            color: var(--text-main);
+            position: relative;
+        }
+
+        /* CSS Grid for Mobile Compatibility */
+        .project-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 25px;
+        }
+
+        /* Glassmorphism Cards */
+        .card {
+            background: var(--card-bg);
+            border: 1px solid var(--card-border);
+            border-radius: 16px;
+            padding: 30px;
+            backdrop-filter: blur(10px);
+            transition: transform 0.3s ease, border-color 0.3s ease;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+            border-color: rgba(0, 210, 255, 0.4);
+            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+        }
+
+        .card h3 {
+            font-size: 1.4rem;
+            margin-bottom: 15px;
+            color: var(--primary);
+        }
+
+        .card p {
+            color: var(--text-muted);
+            margin-bottom: 20px;
+            font-size: 0.95rem;
+            flex-grow: 1;
+        }
+
+        /* Tech Stack Tags */
+        .tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+            margin-bottom: 25px;
+        }
+
+        .tag {
+            background: rgba(58, 123, 213, 0.15);
+            color: var(--primary);
+            padding: 5px 12px;
+            border-radius: 20px;
+            font-size: 0.8rem;
+            font-weight: 500;
+        }
+
+        /* Live Link Button */
+        .btn-live {
+            display: inline-block;
+            background: linear-gradient(135deg, var(--primary), var(--secondary));
+            color: #fff;
+            padding: 10px 20px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: 600;
+            text-align: center;
+            transition: opacity 0.3s ease;
+        }
+
+        .btn-live:hover {
+            opacity: 0.9;
+        }
+
+        /* Responsive Design Adjustments */
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 2.5rem;
+            }
+            header h2 {
+                font-size: 1.2rem;
+            }
+            .card {
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Osteicht</h1>
+        <h2>Full-Stack Web Developer</h2>
+        <p>Building decent-performance, data-driven web applications and interactive user experiences.</p>
+        <a href="https://github.com/Osteicht" class="btn-github" target="_blank">View GitHub Profile</a>
+    </header>
+
+    <main class="container">
+        <h2 class="section-title">Featured Projects</h2>
+        
+        <div class="project-grid">
+            
+            <!-- Project 1: Stats Poll Awards -->
+            <div class="card">
+                <div>
+                    <h3>Stats Poll Awards</h3>
+                    <p>A fully functional, high-traffic voting application that allows users to cast and track live votes in real-time. Deployed via Render.</p>
+                    <div class="tags">
+                        <span class="tag">Node.js</span>
+                        <span class="tag">Express</span>
+                        <span class="tag">Full-Stack</span>
+                    </div>
+                </div>
+                <a href="https://stats-poll-awards.onrender.com" target="_blank" class="btn-live">View Live App</a>
+            </div>
+
+        </div>
+    </main>
+
+</body>
+</html>
