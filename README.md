@@ -3,7 +3,6 @@
 
 Backend-Focused Web Developer | Real-Time Systems & AI Integrations
 
-🌐 Live Portfolio: https://osteicht.github.io
 🚀 What I Do
 
 I build practical, data-driven web applications with a strong focus on backend performance, security, and reliable architecture. From handling high-traffic live voting to bridging AI chatbots across Meta and Telegram, my goal is to build secure software that simply gets the job done under the hood.
