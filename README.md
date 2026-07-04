@@ -1,11 +1,10 @@
 👋 Welcome to My Portfolio Hub
 
-
-Backend-Focused Web Developer | Real-Time Systems & AI Integrations
+Backend-Focused Web Developer | Real-Time Systems & API Integrations
 
 🚀 What I Do
 
-I build practical, data-driven web applications with a strong focus on backend performance, security, and reliable architecture. From handling high-traffic live voting to bridging AI chatbots across Meta and Telegram, my goal is to build secure software that simply gets the job done under the hood.
+I build practical, data-driven web applications with a strong focus on backend performance, security, and reliable architecture. From handling high-traffic live voting to bridging custom chatbots across Meta and Telegram, my goal is to build secure software that simply gets the job done under the hood.
 
 🛠️ Core Tech Stack
 
@@ -21,6 +20,7 @@ I build practical, data-driven web applications with a strong focus on backend p
     Stats Poll Awards: A high-traffic, real-time voting platform built for secure, live vote tracking.
     Website AI Support Chat: A real-time web widget routed directly through Telegram with smart AI auto-replies and human handoffs.
     Facebook AI Support Chat: A unified customer service bridge connecting Facebook Messenger webhooks to a Telegram admin dashboard.
+    Telegram Auto-Moderator Bot: A group moderator bot featuring millisecond-precise flood filters, duplicate message detection, auto-deletion algorithms, and a terminal-style UI.
 
 💼 Inside This Repository
 
